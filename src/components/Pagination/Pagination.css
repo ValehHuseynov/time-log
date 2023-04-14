@@ -1,0 +1,34 @@
+
+
+.Pagination {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.Pagination button {
+    background-color: transparent;
+    color: #3d59df;
+    padding: 8px 12px;
+    cursor: pointer;
+    border: 1px solid #0000001a;
+    border-left: none;
+}
+
+.Pagination button:first-child {
+    border-left: 1px solid #0000001a;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+
+.Pagination button:last-child {
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+.Pagination button.active {
+    background-color: #3d59df;
+    color: #FFFFFF;
+}
+
+.Pagination a:hover:not(.active) {background-color: #ddd;}

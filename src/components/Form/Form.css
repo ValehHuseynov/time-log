@@ -1,0 +1,44 @@
+.Form {
+    width: 100%;
+}
+
+.Form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.Form-group label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.Form-group input {
+    height: 24px;
+    background-color: #FFFFFF;
+    border: 1px solid #0000001a;
+    border-radius: 0.25rem;
+    box-shadow: #0000001a 0 1px 3px 0;
+    padding: 8px 16px;
+}
+
+
+.Form-error {
+    text-align: right;
+    color: red;
+    margin-bottom: 12px;
+}
+
+.Form-button {
+    text-align: right;
+}
+
+.Form-button button {
+    background-color: #FFFFFF;
+    border: 1px solid #0000001a;
+    border-radius: 0.25rem;
+    box-shadow: #0000001a 0 1px 3px 0;
+    padding: 8px 16px;
+    cursor: pointer;
+}
