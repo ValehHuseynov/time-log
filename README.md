@@ -13,5 +13,5 @@
 `Open another terminal and execute this command`
 `npm start`
 
-![alt text](https://github.com/ValehHuseynov/Snake/blob/main/public/timeLog.png?raw=true)
+![alt text](https://github.com/ValehHuseynov/time-log/blob/main/public/timeLog.png?raw=true)
 
